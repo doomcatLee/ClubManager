@@ -14,7 +14,7 @@
       },
       {
         "id": "Faker",
-        "imgUrl": "https://hydra-media.cursecdn.com/lol.gamepedia.com/archive/3/31/20160620173749%21Faker.jpg?version=b0f95fe0470c6f042459c8ce59cc681f",
+        "imgUrl": "https://hydra-media.cursecdn.com/lol.gamepedia.com/thumb/3/31/Faker.jpg/450px-Faker.jpg?version=d92e6e4cd4e7e481ded60ad58bb55b7b",
         "name": "Lee Sang Hyuk",
         "lane": "Mid",
         "bio": "Faker and team had a good start in 2016 as they won IEM X World Championship after beating Fnatic (3-0). They then finished 3rd in the regular split of 2016 LCK Spring but won the entire tournament after dominating ROX Tigers in a 3-1 victory. "
@@ -35,7 +35,7 @@
       },
       {
         "id": "Peanut",
-        "imgUrl": "https://hydra-media.cursecdn.com/lol.gamepedia.com/archive/8/82/20170508073503%21Peanut.jpg?version=88efd5cb867af37148f215f67604b271",
+        "imgUrl": "https://hydra-media.cursecdn.com/lol.gamepedia.com/thumb/8/82/Peanut.jpg/450px-Peanut.jpg?version=520f30b73c74a8e544a8076f454af285",
         "name": "Han Wang Ho",
         "lane": "Jungle",
         "bio":"Entering the Spring Split of the 2016 LCK, ROX finished 1st in the regular season with a 16-2 record. Being a favorite to win the playoffs due to SKT earlier on, ROX faced off against them in the Finals."
@@ -50,13 +50,41 @@
     "bio": "KT Rolster is a Korean professional gaming organization based in South Korea. It is one of the seven KeSPA teams and is participating in OGN Club Masters.",
     "players": [
       {
-        "name": "Huni2",
-        "lane": "Top"
+        "id": "Smeb",
+        "imgUrl": "https://hydra-media.cursecdn.com/lol.gamepedia.com/thumb/d/d4/Smeb.jpg/450px-Smeb.jpg?version=3f69c20e6217fd8ea4ea6e666e46ac41",
+        "name": "Song Kyung Ho",
+        "lane": "Top",
+        "bio": "Song 'Smeb' Kyung-ho began his pro career with Incredible Miracle 1 in March of 2013. This proved to be a rough beginning for Smeb, as his team consistently failed to advance through the group stages of several major events"
       },
       {
-        "name": "Faker2",
-        "lane": "Mid"
+        "id": "Score",
+        "imgUrl": "https://hydra-media.cursecdn.com/lol.gamepedia.com/thumb/1/19/Score.jpg/450px-Score.jpg?version=d4892a88278980e54fdd235dae1a7ad1",
+        "name": "Go Dong Bin",
+        "lane": "Jungle",
+        "bio": "Score remained as the starting Jungler for KT Rolsters for the 2016 Season. In 2016 Spring, Score and team ended the split at 2nd plays and 3rd in the playoffs after losing to SKT. "
+      },
+      {
+        "id": "Pawn",
+        "imgUrl": "https://hydra-media.cursecdn.com/lol.gamepedia.com/thumb/0/0f/Pawn.jpg/450px-Pawn.jpg?version=e25c4031ec4b0b682c45ad2523dd549b",
+        "name": "Heo Won Suk",
+        "lane": "Mid",
+        "bio":"EDG had a rough start to the 2016 LPL Spring Split, playing several games without ClearLove. They were however able to bounce back, finishing 2nd in Group B, slightly behind Royal Never Give Up. "
+      },
+      {
+        "id": "Deft",
+        "imgUrl": "https://hydra-media.cursecdn.com/lol.gamepedia.com/thumb/7/73/Deft.jpg/450px-Deft.jpg?version=fb4d240381b1c2c2c77ff49e1d2e4794",
+        "name": "Kim Hyuk Kyu",
+        "lane": "ADC",
+        "bio":"EDG had a rough start to the 2016 LPL Spring Split, playing several games without ClearLove. They were however able to bounce back, finishing 2nd in Group B, slightly behind Royal Never Give Up."
+      },
+      {
+        "id": "Mata",
+        "imgUrl": "https://hydra-media.cursecdn.com/lol.gamepedia.com/thumb/c/cb/Mata.jpg/450px-Mata.jpg?version=cb52ddbddeca505a2e456d0c5e25372a",
+        "name": "Cho Se Young",
+        "lane": "Support",
+        "bio":"With their new rejuvenated roster, RNG started off the regular season of the 2016 LPL Spring Split strong and midway through the season, earned an invite to the IEM X World Championship. "
       }
+
     ]
 
   },{
@@ -67,30 +95,88 @@
     "bio": "Team SoloMid (TSM) is a North American eSports Team, created around the community website SoloMid.Net by brothers Andy 'Reginald' Dinh and Dan 'Dan Dinh' Dinh in September 2009. The team was first seen in early 2011 after being formed to participate in the Riot Season 1 Championship later that year.",
     "players": [
       {
-        "name": "Huni3",
-        "lane": "Top"
+        "id": "Hauntzer",
+        "imgUrl": "https://hydra-media.cursecdn.com/lol.gamepedia.com/thumb/c/c5/Hauntzer.jpg/450px-Hauntzer.jpg?version=9012d1993b9644322d95baa9e1ef426e",
+        "name": "Kevin Yarnell",
+        "lane": "Top",
+        "bio": "After Gravity's spot in the LCS was sold and the team disbanded, Hauntzer joined Team SoloMid after former Top Laner Dyrus retired. Hauntzer's first appearance as TSM's top laner was at IEM Season X - San Jose where they would defeat LGD Gaming 2-0 to advance to the semifinals but would then lose 0-2 to Origen."
       },
       {
-        "name": "Faker3",
-        "lane": "Mid"
+        "id": "Sevenskeren",
+        "imgUrl": "https://hydra-media.cursecdn.com/lol.gamepedia.com/thumb/2/25/Svenskeren.jpg/450px-Svenskeren.jpg?version=73c1dc48097889457993c58a643b8053",
+        "name": "Dennis Johnsen",
+        "lane": "Jungle",
+        "bio": "Svenskeren's first appearance as TSM's jungler was at IEM Season X - San Jose where they would defeat LGD Gaming 2-0 to advance to the semifinals but would then lose 0-2 to Origen."
+      },
+      {
+        "id": "Bjergsen",
+        "imgUrl": "https://hydra-media.cursecdn.com/lol.gamepedia.com/thumb/2/24/Bjergsen.jpg/450px-Bjergsen.jpg?version=b406e5a2ceaefedde0a5f7d1d27e64de",
+        "name": "Søren Bjerg",
+        "lane": "Mid",
+        "bio":"EDG had a rough start to the 2016 LPL Spring Split, playing several games without ClearLove. They were however able to bounce back, finishing 2nd in Group B, slightly behind Royal Never Give Up. "
+      },
+      {
+        "id": "Doublelift",
+        "imgUrl": "https://hydra-media.cursecdn.com/lol.gamepedia.com/e/e6/Doublelift.jpg?version=7311d570e2193e71706bf8ec58beeef0",
+        "name": "Peter Yang",
+        "lane": "ADC",
+        "bio":"Doublelift hails from Mission Viejo, California. Doublelift first discovered his love for video games through the classic Nintendo 64 titles Star Fox and Golden Eye. After his brother got a computer, Doublelift frequently used it to play Diablo 1 and StarCraft. "
+      },
+      {
+        "id": "Biofrost",
+        "imgUrl": "https://hydra-media.cursecdn.com/lol.gamepedia.com/thumb/5/52/Biofrost.png/450px-Biofrost.png?version=d4e037f908881b38eab47ff0dd41f3d6",
+        "name": "Vincent Wang",
+        "lane": "Support",
+        "bio":"Biofrost's league of legends career started in NACS summer split with the team Vortex. Currently an unknown support player he jumped from team to team, playing for teams such as: Dreamteam, Vortex, Elomingle and Final five."
       }
+
     ]
+
 
   },{
     "id": 4,
-    "name": "C9",
+    "name": "Cloud9",
     "img": "https://hydra-media.cursecdn.com/lol.gamepedia.com/e/ed/Cloud9x.png?version=dd98e9811144db9072be2db96bc86658",
     "bio": "Cloud9 (C9) is a North American League of Legends team competing in the North American League Championship Series. Cloud 9 started the Season strong after signing 2015 Summer MVP Rush. With Hai stepping down as the mid laner and jungler, he then moved to support role sharing the spot with Bunny FuFuu where they played 50/50 in scrims but about 90/10 in the LCS.",
     "players": [
       {
-        "name": "Huni4",
-        "lane": "Top"
+        "id": "Impact",
+        "imgUrl": "https://hydra-media.cursecdn.com/lol.gamepedia.com/thumb/0/01/Impact.jpg/450px-Impact.jpg?version=33833dbfd67078c4a35b0454c037b229",
+        "name": "Jung Eon-yeong",
+        "lane": "Top",
+        "bio": "In November of 2015, Impact left Team Impulse to join NRG Esports as one of their two star players along with GBM. However, NRG's results were not as what many would have expected. "
       },
       {
-        "name": "Faker4",
-        "lane": "Mid"
+        "id": "Contractz",
+        "imgUrl": "https://hydra-media.cursecdn.com/lol.gamepedia.com/thumb/7/73/Contractz.jpg/450px-Contractz.jpg?version=142a6110fad7ff7a65846e6b9c7f913a",
+        "name": "Juan Garcia",
+        "lane": "Jungle",
+        "bio": "Contractz's competitive career started in 2015 with Zenith eSports. The team participated in the HTC Ascension Challenger Invitational where they finished 5-6th place. After Zenith, Contractz joined Ember and played in the 2016 NACS Spring. However, as he was only 17 years old prior to the playoffs, Ember signed Santorin to replace him as starting Jungler for the team."
+      },
+      {
+        "id": "Jensen",
+        "imgUrl": "https://hydra-media.cursecdn.com/lol.gamepedia.com/thumb/5/5c/Jensen.jpg/450px-Jensen.jpg?version=363aef323e46aaa0d95f27078402c451",
+        "name": "Nicolaj Jensen",
+        "lane": "Mid",
+        "bio":"After switching his name from Incarnation to Jensen, the Cloud9 Mid Laner entered the Spring Split of the 2016 NA LCS with good expectations. He proved to be one of the stronger mids in the league and Cloud9 was able to finish in third place with a 12-6 record. They were however defeated by Team SoloMid (1-3) in the Quarterfinals. After that, Cloud9 would train in Korea and revamp their roster by replacing Balls, Rush and Hai with Impact, Meteos, Bunny FuFuu and Smoothie respectively."
+      },
+      {
+        "id": "Sneaky",
+        "imgUrl": "https://hydra-media.cursecdn.com/lol.gamepedia.com/thumb/0/09/Sneaky.jpg/450px-Sneaky.jpg?version=e091bd9bd28032fd1d2bda5eb97e071f",
+        "name": "Zachary Scuderi",
+        "lane": "ADC",
+        "bio":"Cloud9 entered the Spring Split of the 2016 NA LCS with a lot of potential and were able to finish in third place with a 12-6 record. They were however defeated by Team SoloMid (1-3) in the Quarterfinals. After that, Cloud9 would train in Korea and revamp their roster by replacing Balls, Rush and Hai with Impact, Meteos, Bunny FuFuu and Smoothie respectively."
+      },
+      {
+        "id": "Smoothie",
+        "imgUrl": "https://hydra-media.cursecdn.com/lol.gamepedia.com/thumb/6/69/Smoothie.jpg/450px-Smoothie.jpg?version=76d68fe0631d691935ab5f7243be6f2e",
+        "name": "Andy Ta",
+        "lane": "Support",
+        "bio":"After an unsuccessful stint with Team Liquid, Smoothie joined Cloud9 in the Summer of the 2016 NA LCS along with Bunny FuFuu, splitting game time with him. Cloud9 started the split slow, with most of their matches going 3 games. Bunny FuFuu then stepped down from the starting roster, thus giving Smoothie the starting Support role."
       }
+
     ]
+
   }
   ]
 }
