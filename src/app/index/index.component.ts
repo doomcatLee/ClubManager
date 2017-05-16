@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Team } from '../team.model';
 import { Router } from '@angular/router';
 import { TeamService } from '../team.service';
+import { FirebaseListObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-index',
@@ -12,7 +13,8 @@ import { TeamService } from '../team.service';
 
 export class IndexComponent implements OnInit {
 
-  teams: Team[];
+  teams: FirebaseListObservable<any[]>;
+
   constructor(private router: Router, private teamService: TeamService) { }
 
   ngOnInit() {

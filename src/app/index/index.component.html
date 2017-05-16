@@ -2,7 +2,7 @@
 
 
 <div class="collection">
-  <a *ngFor='let team of teams' class="collection-item avatar" (click)="goToDetailPage(team)">
+  <a *ngFor='let team of teams | async' class="collection-item avatar" (click)="goToDetailPage(team)">
     <img src="{{team.img}}" style="width:45px; " class="circle ">
     <span class="title ">{{team.name}}</span>
   </a>
