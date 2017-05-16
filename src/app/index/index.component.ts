@@ -1,22 +1,24 @@
 import { Component, OnInit } from '@angular/core';
 import { Team } from '../team.model';
 import { Router } from '@angular/router';
+import { TeamService } from '../team.service';
 
 @Component({
   selector: 'app-index',
   templateUrl: './index.component.html',
-  styleUrls: ['./index.component.css']
+  styleUrls: ['./index.component.css'],
+  providers: [TeamService]
 })
-export class IndexComponent {
 
-  constructor(private router: Router) { }
+export class IndexComponent implements OnInit {
 
-  teams: Team[] = [
-    new Team(1, "SKT T1", "url"),
-    new Team(2, "KT Rolster", "url"),
-    new Team(3, "TSM", "url"),
-    new Team(4, "C9", "url")
-  ];
+  teams: Team[];
+  constructor(private router: Router, private teamService: TeamService) { }
+
+  ngOnInit() {
+    this.teams = this.teamService.getTeams();
+  }
+
 
   goToDetailPage(clickedTeam: Team) {
     this.router.navigate(['teams', clickedTeam.id])
