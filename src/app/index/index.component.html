@@ -1,1 +1,13 @@
-<h1>This is index welcome page</h1>
+<a routerLink='about'>About</a>
+
+
+<h1>Current Teams</h1>
+
+<div *ngFor='let team of teams' class="panel panel-default">
+  <div class="panel-body">
+    <h3>{{team.id}}</h3>
+    <h3>{{team.name}}</h3>
+    <button (click)="goToDetailPage(team)">Detail</button>
+
+  </div>
+</div>
