@@ -22,7 +22,7 @@ export class IndexComponent implements OnInit {
   }
 
 
-  goToDetailPage(clickedTeam: Team) {
-    this.router.navigate(['teams', clickedTeam.id])
+  goToDetailPage(clickedTeam) {
+    this.router.navigate(['teams', clickedTeam.$key]);
   }
 }

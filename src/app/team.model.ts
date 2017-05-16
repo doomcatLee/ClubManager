@@ -1,3 +1,3 @@
 export class Team {
-  constructor(public id: number, public name: string, public img: string, public bio: string) { }
+  constructor(public name: string, public img: string, public bio: string) { }
 }

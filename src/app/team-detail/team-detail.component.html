@@ -1,7 +1,65 @@
 <div class="container \">
-  <div>
-    <img src={{teamToDisplay.img}} style="height: 200px">
-  </div>
-  <p>{{teamToDisplay.bio}}</p>
+  <img src='{{(teamToDisplay | async)?.img}}' style='height: 150px;'>
+  <h3>{{(teamToDisplay | async)?.name}}</h3>
+  <p>{{(teamToDisplay | async)?.bio}}</p>
   <a routerLink='' class="waves-effect waves-light btn">Back</a>
+
+</div>
+
+<div id="reveal" class="section scrollspy">
+  <div class="row">
+    <!-- Pullup Card -->
+    <div class="col m3">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="https://hydra-media.cursecdn.com/lol.gamepedia.com/archive/1/16/20170209190329%21Huni.jpg?version=60b2151d98e18eacd1b70963194eb3b6">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Huni<i class="material-icons right">Bio</i></span>
+          <p>Seung Hoon Heo</p>
+          <p>Top</p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <p>Seung Hoon Heo</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col m3">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="https://hydra-media.cursecdn.com/lol.gamepedia.com/archive/8/82/20170508073503%21Peanut.jpg?version=88efd5cb867af37148f215f67604b271">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Peanut<i clPeanut"material-icons right">Bio</i></span>
+          <p>Lee Sang Hyuk</p>
+          <p>Jungle</p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <p>Entering the Spring Split of the 2016 LCK, ROX finished 1st in the regular season with a 16-2 record. Being a favorite to win the playoffs due to SKT earlier on, ROX faced off against them in the Finals</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col m3">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="https://hydra-media.cursecdn.com/lol.gamepedia.com/archive/3/31/20160620173749%21Faker.jpg?version=b0f95fe0470c6f042459c8ce59cc681f">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Faker<i class="material-icons right">Bio</i></span>
+
+          <p>Mid</p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
 </div>

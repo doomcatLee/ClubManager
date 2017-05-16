@@ -16,11 +16,11 @@ export class TeamService {
     return this.teams;
   }
 
+  addTeam(newTeam: Team) {
+    this.teams.push(newTeam);
+  }
+
   getTeamById(teamId: number) {
-    for (var i = 0; i <= TEAMS.length - 1; i++) {
-      if (TEAMS[i].id === teamId) {
-        return TEAMS[i];
-      }
-    }
+    return this.database.object('teams/' + teamId);
   }
 }
