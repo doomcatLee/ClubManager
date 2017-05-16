@@ -3,23 +3,94 @@
     "id": 1,
     "name": "SKT T1",
     "img": "https://hydra-media.cursecdn.com/lol.gamepedia.com/b/b7/SKT1.png?version=96ffe810c24dfbeb6c82cf1be25cedd7",
-    "bio": " Korean a professional gaming team based in South Korea. Previously, the SK Telecom organization sponsored two sister teams, S and K. It was originally founded as a StarCraft: Brood War team under the name Orion in 2002 by Lim Yo-Hwan (Boxer), regarded by many as the greatest eSports player of all time, and has included stars such as Kim Taek-Young (Bisu), Jung Myung-Hoon (Fantasy) and Choi Yun-Sung (ILoveOov - who is formerly the coach of SKT1's StarCraft II team)"
+    "bio": " Korean a professional gaming team based in South Korea. Previously, the SK Telecom organization sponsored two sister teams, S and K. It was originally founded as a StarCraft: Brood War team under the name Orion in 2002 by Lim Yo-Hwan (Boxer), regarded by many as the greatest eSports player of all time, and has included stars such as Kim Taek-Young (Bisu), Jung Myung-Hoon (Fantasy) and Choi Yun-Sung (ILoveOov - who is formerly the coach of SKT1's StarCraft II team)",
+    "players": [
+      {
+        "id": "Huni",
+        "imgUrl": "https://hydra-media.cursecdn.com/lol.gamepedia.com/thumb/1/16/Huni.jpg/450px-Huni.jpg?version=f3c1e730d8263ed440082b7fcdfd5da5",
+        "name": "Seung Hoon Heo",
+        "lane": "Top",
+        "bio": "In the following season, Huni and his teammate Reignover both asked for a raise, which Fnatic declined, so the two of them decided to join the Immortals roster that was building over in North America, joining NA LCS veterans WildTurtle, Pobelter, and Adrian. "
+      },
+      {
+        "id": "Faker",
+        "imgUrl": "https://hydra-media.cursecdn.com/lol.gamepedia.com/archive/3/31/20160620173749%21Faker.jpg?version=b0f95fe0470c6f042459c8ce59cc681f",
+        "name": "Lee Sang Hyuk",
+        "lane": "Mid",
+        "bio": "Faker and team had a good start in 2016 as they won IEM X World Championship after beating Fnatic (3-0). They then finished 3rd in the regular split of 2016 LCK Spring but won the entire tournament after dominating ROX Tigers in a 3-1 victory. "
+      },
+      {
+        "id": "Bang",
+        "imgUrl": "https://hydra-media.cursecdn.com/lol.gamepedia.com/thumb/e/e6/Bang.jpg/450px-Bang.jpg?version=f699bdde995dd9255318572ab99c756d",
+        "name": "Bae Jun Sik",
+        "lane": "ADC",
+        "bio":"Bang and SKT had a good start in 2016 as they won IEM X World Championship after beating Fnatic (3-0). They then finished 3rd in the regular split of 2016 LCK Spring but won the entire tournament after dominating ROX Tigers in a 3-1 victory."
+      },
+      {
+        "id": "Wolf",
+        "imgUrl": "https://hydra-media.cursecdn.com/lol.gamepedia.com/thumb/9/97/Wolf.jpg/450px-Wolf.jpg?version=e772439398cdb9af8d06ccbef52c338d",
+        "name": "Lee Jae Wan",
+        "lane": "Support",
+        "bio":"Wolf and SKT had a good start in 2016 as they won IEM X World Championship after beating Fnatic (3-0). They then finished 3rd in the regular split of 2016 LCK Spring but won the entire tournament after dominating ROX Tigers in a 3-1 victory."
+      },
+      {
+        "id": "Peanut",
+        "imgUrl": "https://hydra-media.cursecdn.com/lol.gamepedia.com/archive/8/82/20170508073503%21Peanut.jpg?version=88efd5cb867af37148f215f67604b271",
+        "name": "Han Wang Ho",
+        "lane": "Jungle",
+        "bio":"Entering the Spring Split of the 2016 LCK, ROX finished 1st in the regular season with a 16-2 record. Being a favorite to win the playoffs due to SKT earlier on, ROX faced off against them in the Finals."
+      }
+
+    ]
+
   },{
     "id": 2,
     "name": "KT Rolster",
     "img": "https://hydra-media.cursecdn.com/lol.gamepedia.com/d/d4/Ktrolsterlogo.png?version=b92c9d861affae8a91a097317a0313af",
-    "bio": "KT Rolster is a Korean professional gaming organization based in South Korea. It is one of the seven KeSPA teams and is participating in OGN Club Masters."
+    "bio": "KT Rolster is a Korean professional gaming organization based in South Korea. It is one of the seven KeSPA teams and is participating in OGN Club Masters.",
+    "players": [
+      {
+        "name": "Huni2",
+        "lane": "Top"
+      },
+      {
+        "name": "Faker2",
+        "lane": "Mid"
+      }
+    ]
+
   },{
     "id": 3,
     "name": "TSM",
     "img":
     "https://hydra-media.cursecdn.com/lol.gamepedia.com/thumb/6/61/Team_SoloMid.png/600px-Team_SoloMid.png?version=7787b71113ba2fc5fd90ee5e613763b9",
-    "bio": "Team SoloMid (TSM) is a North American eSports Team, created around the community website SoloMid.Net by brothers Andy 'Reginald' Dinh and Dan 'Dan Dinh' Dinh in September 2009. The team was first seen in early 2011 after being formed to participate in the Riot Season 1 Championship later that year."
+    "bio": "Team SoloMid (TSM) is a North American eSports Team, created around the community website SoloMid.Net by brothers Andy 'Reginald' Dinh and Dan 'Dan Dinh' Dinh in September 2009. The team was first seen in early 2011 after being formed to participate in the Riot Season 1 Championship later that year.",
+    "players": [
+      {
+        "name": "Huni3",
+        "lane": "Top"
+      },
+      {
+        "name": "Faker3",
+        "lane": "Mid"
+      }
+    ]
+
   },{
     "id": 4,
     "name": "C9",
     "img": "https://hydra-media.cursecdn.com/lol.gamepedia.com/e/ed/Cloud9x.png?version=dd98e9811144db9072be2db96bc86658",
-    "bio": "Cloud9 (C9) is a North American League of Legends team competing in the North American League Championship Series. Cloud 9 started the Season strong after signing 2015 Summer MVP Rush. With Hai stepping down as the mid laner and jungler, he then moved to support role sharing the spot with Bunny FuFuu where they played 50/50 in scrims but about 90/10 in the LCS."
+    "bio": "Cloud9 (C9) is a North American League of Legends team competing in the North American League Championship Series. Cloud 9 started the Season strong after signing 2015 Summer MVP Rush. With Hai stepping down as the mid laner and jungler, he then moved to support role sharing the spot with Bunny FuFuu where they played 50/50 in scrims but about 90/10 in the LCS.",
+    "players": [
+      {
+        "name": "Huni4",
+        "lane": "Top"
+      },
+      {
+        "name": "Faker4",
+        "lane": "Mid"
+      }
+    ]
   }
   ]
 }

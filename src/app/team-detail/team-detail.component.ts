@@ -14,16 +14,23 @@ import { FirebaseObjectObservable } from 'angularfire2/database';
 export class TeamDetailComponent implements OnInit {
 
   teamId: number;
-  teamToDisplay;
+  team: Team;
+  players: any[];
 
-  constructor(private route: ActivatedRoute, private location: Location, private teamService: TeamService) { }
+  constructor(
+    private route: ActivatedRoute,
+    private location: Location,
+    private teamService: TeamService
+  ) { }
 
 
   ngOnInit() {
-    this.route.params.forEach((urlParameters) => {
+    this.route.params.subscribe((urlParameters) => {
       this.teamId = parseInt(urlParameters['id']);
-    });
-    this.teamToDisplay = this.teamService.getTeamById(this.teamId);
+      this.teamService.getTeamById(this.teamId).subscribe((team) => {
+        this.team = team;
+      })
+    })
   }
 
 }

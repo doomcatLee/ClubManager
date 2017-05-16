@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { Team } from './team.model';
-import { TEAMS } from './mock-teams';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
 @Injectable()
