@@ -1,6 +1,20 @@
 # LeagueClub
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.2.
+# Alex Lee
+
+# Specs
+
+1. Display list of all teams
+2. Display detail page of each team.
+3. Display about page describing description of the team
+4. Store data in firebase database
+5. Filter teams by something
+6. Add new users to the team
+7. Edit/Update users
+8. Delete users
+
+
 
 ## Development server
 
