@@ -15,12 +15,8 @@ export class TeamAddComponent implements OnInit {
   ngOnInit() {
   }
 
-  addPlayerDiv() {
-    console.log("Hello");
-    return "<h1>Hello</h1>"
-  }
-  submitForm(name: string, imgUrl: string, bio: string, players: any[]) {
-    var newTeam: Team = new Team(name, imgUrl, bio, players);
+  submitForm(name: string, imgUrl: string, bio: string) {
+    var newTeam: Team = new Team(name, imgUrl, bio);
     this.teamService.addTeam(newTeam);
     console.log(newTeam);
   }

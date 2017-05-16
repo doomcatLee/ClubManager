@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { TeamService } from '../team.service';
 import { FirebaseListObservable } from 'angularfire2/database';
 
+
 @Component({
   selector: 'app-index',
   templateUrl: './index.component.html',
@@ -14,11 +15,16 @@ import { FirebaseListObservable } from 'angularfire2/database';
 export class IndexComponent implements OnInit {
 
   teams: FirebaseListObservable<any[]>;
+  currentRoute: string = this.router.url;
+
+
 
   constructor(private router: Router, private teamService: TeamService) { }
 
   ngOnInit() {
     this.teams = this.teamService.getTeams();
+    console.log(this.router.url);
+
   }
 
 

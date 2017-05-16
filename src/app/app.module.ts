@@ -10,8 +10,8 @@ import { TeamDetailComponent } from './team-detail/team-detail.component';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
-import { AdminComponent } from './admin/admin.component';
 import { TeamAddComponent } from './team-add/team-add.component';
+import { TeamEditComponent } from './team-edit/team-edit.component';
 
 
 
@@ -30,8 +30,8 @@ export const firebaseConfig = {
     IndexComponent,
     AboutComponent,
     TeamDetailComponent,
-    AdminComponent,
-    TeamAddComponent
+    TeamAddComponent,
+    TeamEditComponent
   ],
   imports: [
     BrowserModule,
