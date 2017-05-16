@@ -5,9 +5,8 @@
 
 <div *ngFor='let team of teams' class="panel panel-default">
   <div class="panel-body">
-    <h3>{{team.id}}</h3>
     <h3>{{team.name}}</h3>
-    <button (click)="goToDetailPage(team)">Detail</button>
+    <a class="waves-effect waves-light btn" (click)="goToDetailPage(team)">Detail</a>
 
   </div>
 </div>
