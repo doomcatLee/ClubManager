@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { IndexComponent } from './index/index.component';
 import { AboutComponent } from './about/about.component';
 import { TeamDetailComponent } from './team-detail/team-detail.component';
-import { AdminComponent } from './admin/admin.component';
+import { TeamAddComponent } from './team-add/team-add.component';
 
 
 const appRoutes: Routes = [
@@ -20,8 +20,8 @@ const appRoutes: Routes = [
     component: TeamDetailComponent
   },
   {
-    path: 'admin',
-    component: AdminComponent
+    path: 'addTeam',
+    component: TeamAddComponent
   }
 ]
 

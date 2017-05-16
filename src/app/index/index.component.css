@@ -1,5 +1,27 @@
 a {
-  margin-left: 84%;
-  margin-top: 70px;
   cursor: pointer; cursor: hand;
+  height: 30%;
+}
+
+#addTeam{
+  float:right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+img{
+  height: 80px;
+  width: 50px;
+}
+
+.card{
+  width: 260px;
+  float:left;
+  margin-left: 10px;
+}
+
+.row {
+  margin-top: 10%;
+  margin-left: 10%;
+
 }
