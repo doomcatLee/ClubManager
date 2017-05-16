@@ -1,12 +1,9 @@
-<a routerLink='about'>About</a>
+<a class="waves-effect waves-light btn">Add team</a>
 
 
-<h1>Current Teams</h1>
-
-<div *ngFor='let team of teams' class="panel panel-default">
-  <div class="panel-body">
-    <h3>{{team.name}}</h3>
-    <a class="waves-effect waves-light btn" (click)="goToDetailPage(team)">Detail</a>
-
-  </div>
+<div class="collection">
+  <a *ngFor='let team of teams' class="collection-item avatar" (click)="goToDetailPage(team)">
+    <img src="{{team.img}}" style="width:45px; " class="circle ">
+    <span class="title ">{{team.name}}</span>
+  </a>
 </div>
