@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Location } from '@angular/common';
 import { Team } from '../team.model';
-import { ActivatedRoute, Params } from '@angular/router';
+import { ActivatedRoute, Params, Router } from '@angular/router';
 import { TeamService } from '../team.service';
 import { FirebaseObjectObservable } from 'angularfire2/database';
 
@@ -15,12 +15,13 @@ export class TeamDetailComponent implements OnInit {
 
   teamId: number;
   team: Team;
-  players: any[];
+
 
   constructor(
     private route: ActivatedRoute,
     private location: Location,
-    private teamService: TeamService
+    private teamService: TeamService,
+    private router: Router
   ) { }
 
 
@@ -33,4 +34,8 @@ export class TeamDetailComponent implements OnInit {
     })
   }
 
+
+  goToEdit() {
+    this.router.navigate(['teams', this.teamId, 'edit']);
+  }
 }

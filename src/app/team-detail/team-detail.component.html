@@ -1,31 +1,35 @@
-<div class="container">
-  <img src='{{team?.img}}' style='height: 150px;'>
-  <h3>{{team?.name}}</h3>
-  <p>{{team?.bio}}</p>
-  <a routerLink='' class="waves-effect waves-light btn">Back</a>
-</div>
+<div class="main">
+  <div class="container">
+    <img src='{{team?.img}}' style='height: 150px;'>
+    <h3>{{team?.name}}</h3>
+    <p>{{team?.bio}}</p>
+    <a routerLink='' class="waves-effect waves-light btn">Back</a>
+    <a (click)="goToEdit()" class="waves-effect waves-light btn">Edit Team</a>
+  </div>
 
-<div id="reveal" class="section scrollspy">
-  <div class="row">
-    <!-- Pullup Card -->
-    <div *ngFor='let player of team?.players' style="margin-left: 10px; float:left;">
-      <div class="card">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="{{player?.imgUrl}}">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">{{player?.id}}<i class="material-icons right"></i></span>
-          <p>{{player?.name}}</p>
-          <p>{{player?.lane}}</p>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Bio<i class="material-icons right">close</i></span>
-          <p>{{player?.bio}}</p>
+  <div id="reveal" class="section scrollspy">
+    <div class="row">
+      <!-- Pullup Card -->
+      <div *ngFor='let player of team?.players' style="margin-left: 10px; float:left;">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="{{player?.imgUrl}}">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">{{player?.id}}<i class="material-icons right"></i></span>
+            <p>{{player?.name}}</p>
+            <p>{{player?.lane}}</p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Bio<i class="material-icons right">close</i></span>
+            <p>{{player?.bio}}</p>
+          </div>
         </div>
       </div>
+
+
+
     </div>
-
-
-
   </div>
+
 </div>

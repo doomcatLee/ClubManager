@@ -12,6 +12,7 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { TeamAddComponent } from './team-add/team-add.component';
 import { TeamEditComponent } from './team-edit/team-edit.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -31,7 +32,8 @@ export const firebaseConfig = {
     AboutComponent,
     TeamDetailComponent,
     TeamAddComponent,
-    TeamEditComponent
+    TeamEditComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

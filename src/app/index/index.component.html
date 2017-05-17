@@ -17,14 +17,12 @@
           <div class="row">
             <a class="waves-effect waves-light btn" (click)="goToDetailPage(team)">Detail</a>
           </div>
+
+
         </div>
       </div>
 
-      <div *ngIf="currentRoute === '/addTeam'">
-        {{team.name}}
-        <hr>
-        <app-team-edit></app-team-edit>
-      </div>
+
 
     </div>
   </div>

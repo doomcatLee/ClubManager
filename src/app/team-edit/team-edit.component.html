@@ -1,3 +1,13 @@
-<p>
-  team-edit works!
-</p>
+<h4>Edit Team</h4>
+
+<label>New Team Name:</label>
+<input [(ngModel)]="selectedTeam.name">
+<br>
+
+<label>New Team Img URL:</label>
+<input [(ngModel)]="selectedTeam.img">
+<br>
+
+<label>New Team Bio:</label>
+<input [(ngModel)]="selectedTeam.bio">
+<button (click)="beginUpdatingTeam(selectedTeam)">Update</button>

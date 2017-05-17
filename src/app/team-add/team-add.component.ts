@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TeamService } from '../team.service';
 import { Team } from '../team.model';
+import { ActivatedRoute, Params, Router } from '@angular/router';
 
 @Component({
   selector: 'app-team-add',
@@ -10,10 +11,12 @@ import { Team } from '../team.model';
 })
 export class TeamAddComponent implements OnInit {
 
-  constructor(private teamService: TeamService) { }
+  constructor(
+    private teamService: TeamService) { }
 
   ngOnInit() {
   }
+
 
   submitForm(name: string, imgUrl: string, bio: string) {
     var newTeam: Team = new Team(name, imgUrl, bio);

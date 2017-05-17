@@ -22,4 +22,13 @@ export class TeamService {
   getTeamById(teamId: number) {
     return this.database.object('teams/' + teamId);
   }
+
+  updateTeam(localUpdatedTeam) {
+    var teamEntryInFirebase = this.getTeamById(localUpdatedTeam.$key);
+    teamEntryInFirebase.update({
+      name: localUpdatedTeam.name,
+      img: localUpdatedTeam.img,
+      bio: localUpdatedTeam.bio
+    });
+  }
 }
