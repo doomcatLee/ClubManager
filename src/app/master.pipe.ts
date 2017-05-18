@@ -9,15 +9,32 @@ import { Team } from './team.model';
 
 export class MasterPipe implements PipeTransform {
 
-  transform(input: Team[]) {
-    var output: Team[] = [];
-    for (var i = 0; i < input.length; i++) {
-      if (input[i].name === "SKT T1") {
-        output.push(input[i]);
+  transform(input: Team[], filterByMaster) {
+    if (input) {
+      var output: Team[] = [];
+      if (filterByMaster === "all") {
+        for (var i = 0; i < input.length; i++) {
+          output.push(input[i]);
+        }
+        return output;
+      } else if (filterByMaster === "highGamesWon") {
+        for (var i = 0; i < input.length; i++) {
+          if (input[i].tCount > 15) {
+            output.push(input[i]);
+          }
+        }
+        return output;
+      } else if (filterByMaster === "lowGamesWon") {
+        for (var i = 0; i < input.length; i++) {
+          if (input[i].tCount < 10) {
+            output.push(input[i]);
+          }
+        }
+        return output;
+      } else {
+        return input;
       }
     }
-    return output;
   }
-
 
 }

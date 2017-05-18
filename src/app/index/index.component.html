@@ -4,11 +4,13 @@
   <div class="row">
 
     <select class="selectpicker" (change)="onChange($event.target.value)">
-  <option value="all">All Animals</option>
-  <option value="youngAnimal">Young Animals</option>
-</select>
+    <option value="all">All Teams</option>
+    <option value="lowGamesWon">Won less than 10 games</option>
+    <option value="highGamesWon">Won more than 15 games</option>
+  </select>
 
-    <div class="col m3" *ngFor='let team of teams | async' class="collection-item avatar">
+
+    <div class="col m3" *ngFor='let team of teams | async | masterPipe:filterByMaster' class="collection-item avatar">
 
 
       <div class="card">
@@ -32,11 +34,8 @@
         <app-team-edit [selectedTeam]="team"></app-team-edit>
       </div>
 
-
-
-
-
     </div>
+
   </div>
 
 </div>

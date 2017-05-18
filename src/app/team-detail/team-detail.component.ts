@@ -15,6 +15,7 @@ export class TeamDetailComponent implements OnInit {
 
   teamId: number;
   team: Team;
+  teamToDisplay;
 
 
   constructor(
@@ -26,12 +27,10 @@ export class TeamDetailComponent implements OnInit {
 
 
   ngOnInit() {
-    this.route.params.subscribe((urlParameters) => {
-      this.teamId = parseInt(urlParameters['id']);
-      this.teamService.getTeamById(this.teamId).subscribe((team) => {
-        this.team = team;
-      })
-    })
+    this.route.params.forEach((urlParameters) => {
+      this.teamId = urlParameters['id'];
+    });
+    this.teamToDisplay = this.teamService.getTeamById(this.teamId);
   }
 
 

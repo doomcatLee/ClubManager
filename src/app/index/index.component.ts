@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, Input, EventEmitter} from '@angular/core';
 import { Team } from '../team.model';
 import { Router } from '@angular/router';
 import { TeamService } from '../team.service';
@@ -15,16 +15,22 @@ import { FirebaseListObservable } from 'angularfire2/database';
 export class IndexComponent implements OnInit {
 
   teams: FirebaseListObservable<any[]>;
+
   currentRoute: string = this.router.url;
 
-
+  filterByMaster: string = 'all';
 
   constructor(private router: Router, private teamService: TeamService) { }
 
   ngOnInit() {
     this.teams = this.teamService.getTeams();
-    console.log(this.router.url);
 
+
+  }
+
+
+  onChange(optionFromMenu) {
+    this.filterByMaster = optionFromMenu;
   }
 
 

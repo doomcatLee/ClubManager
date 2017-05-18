@@ -1,10 +1,9 @@
 <div class="main">
   <div class="container">
-    <img src='{{team?.img}}' style='height: 150px;'>
-    <h3>{{team?.name}}</h3>
-    <p>{{team?.bio}}</p>
+    <img src='{{(teamToDisplay | async)?.img}}' style='height: 150px;'>
+    <h3>{{(teamToDisplay | async)?.name}}</h3>
+    <p>{{(teamToDisplay| async)?.bio}}</p>
     <a routerLink='' class="waves-effect waves-light btn">Back</a>
-    <a (click)="goToEdit()" class="waves-effect waves-light btn">Edit Team</a>
   </div>
 
   <div id="reveal" class="section scrollspy">

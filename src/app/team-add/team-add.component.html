@@ -9,10 +9,14 @@
       <label for="icon_telephone">Img URL</label>
     </div>
     <div class="input-field col s6">
+      <input id="icon_telephone" type="number" class="validate" #newTCount required>
+      <label for="icon_telephone">Number of Tournaments won</label>
+    </div>
+    <div class="input-field col s6">
       <input id="icon_telephone" type="tel" class="validate" #newBio required>
       <label for="icon_telephone">Team bio</label>
     </div>
   </div>
 
-  <button class="waves-effect waves-light btn" (click)="submitForm(newName.value, newImgURL.value, newBio.value); newName.value ='';newImgURL.value ='';newBio.value ='';" routerLink=''>Add</button>
+  <button class="waves-effect waves-light btn" (click)="submitForm(newName.value, newImgURL.value, newTCount.value,  newBio.value); newName.value ='';newImgURL.value =''; newTCount.value=''; newBio.value ='';" routerLink=''>Add</button>
 </div>

@@ -19,8 +19,8 @@ export class AdminComponent implements OnInit {
   }
 
 
-  submitForm(name: string, imgUrl: string, bio: string) {
-    var newTeam: Team = new Team(name, imgUrl, bio);
+  submitForm(name: string, imgUrl: string, tCount: number, bio: string) {
+    var newTeam: Team = new Team(name, imgUrl, tCount, bio);
     this.teamService.addTeam(newTeam);
     console.log(newTeam);
   }
