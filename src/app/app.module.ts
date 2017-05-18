@@ -14,6 +14,7 @@ import { TeamAddComponent } from './team-add/team-add.component';
 import { TeamEditComponent } from './team-edit/team-edit.component';
 import { ContactComponent } from './contact/contact.component';
 import { AdminComponent } from './admin/admin.component';
+import { MasterPipe } from './master.pipe';
 
 
 
@@ -35,7 +36,8 @@ export const firebaseConfig = {
     TeamAddComponent,
     TeamEditComponent,
     ContactComponent,
-    AdminComponent
+    AdminComponent,
+    MasterPipe
   ],
   imports: [
     BrowserModule,

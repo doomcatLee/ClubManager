@@ -34,5 +34,10 @@ img{
   /*background-image:url('../resources/background.jpg');*/
   background-size: cover;
 
+}
 
+
+select{
+  display:block;
+  width: 50%;
 }
