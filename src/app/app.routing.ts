@@ -6,12 +6,17 @@ import { TeamDetailComponent } from './team-detail/team-detail.component';
 import { TeamAddComponent } from './team-add/team-add.component';
 import { ContactComponent } from './contact/contact.component';
 import { TeamEditComponent } from './team-edit/team-edit.component';
+import { AdminComponent } from './admin/admin.component';
 
 
 const appRoutes: Routes = [
   {
     path: '',
     component: IndexComponent
+  },
+  {
+    path: 'admin',
+    component: AdminComponent
   },
   {
     path: 'about',
