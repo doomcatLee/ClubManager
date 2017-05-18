@@ -10,4 +10,5 @@
 
 <label>New Team Bio:</label>
 <input [(ngModel)]="selectedTeam.bio">
-<button (click)="beginUpdatingTeam(selectedTeam)">Update</button>
+<a class="waves-effect waves-light btn" (click)="beginUpdatingTeam(selectedTeam)">Update</a>
+<a class="waves-effect waves-light btn" (click)="beginDeletingTeam(selectedTeam)">Delete</a>

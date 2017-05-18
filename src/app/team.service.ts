@@ -31,4 +31,11 @@ export class TeamService {
       bio: localUpdatedTeam.bio
     });
   }
+
+
+  deleteTeam(localTeamToDelete) {
+    var teamEntryInFirebase = this.getTeamById(localTeamToDelete.$key);
+    teamEntryInFirebase.remove();
+  }
+
 }

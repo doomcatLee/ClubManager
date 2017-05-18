@@ -21,4 +21,10 @@ export class TeamEditComponent implements OnInit {
     this.teamService.updateTeam(teamToUpdate);
   }
 
+  beginDeletingTeam(teamToDelete) {
+    if (confirm("Are you sure you want to delete this item from the inventory?")) {
+      this.teamService.deleteTeam(teamToDelete);
+    }
+  }
+
 }
